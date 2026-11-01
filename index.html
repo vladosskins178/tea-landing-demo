@@ -70,7 +70,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.05;color:var(--c
 .hero{position:relative;overflow:hidden;background:var(--bg)}
 .hero-bg{position:absolute;inset:0}
 .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:60% 40%}
-.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(10,9,8,.6) 0%,rgba(10,9,8,.25) 38%,rgba(10,9,8,.35) 62%,rgba(14,12,10,1) 100%)}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(10,9,8,.62) 0%,rgba(10,9,8,.3) 30%,rgba(10,9,8,.12) 55%,rgba(10,9,8,.3) 80%,rgba(14,12,10,1) 100%)}
 .hero-in{position:relative;z-index:2;padding-top:118px;padding-bottom:20px;text-align:center}
 .hero .rule{margin:14px auto 20px;width:72px}
 .hero h1{font-size:clamp(46px,12.5vw,98px)}
@@ -96,7 +96,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.05;color:var(--c
 @media (max-width:380px){.trust li{font-size:13px;gap:6px;padding:0 6px}.trust svg{width:26px;height:26px}}
 @media (min-width:900px){
   .hero{min-height:max(720px,100vh);display:flex;flex-direction:column}
-  .hero::before{background:linear-gradient(90deg,rgba(10,9,8,.92) 0%,rgba(10,9,8,.72) 34%,rgba(10,9,8,.15) 62%,rgba(10,9,8,.1) 100%),linear-gradient(180deg,rgba(10,9,8,.5),transparent 25%,transparent 72%,rgba(10,9,8,.9))}
+  .hero::before{background:linear-gradient(90deg,rgba(10,9,8,.92) 0%,rgba(10,9,8,.72) 34%,rgba(10,9,8,.15) 62%,rgba(10,9,8,.1) 100%),linear-gradient(180deg,rgba(10,9,8,.4),transparent 18%,transparent 72%,rgba(10,9,8,.9))}
   .hero-in{flex:1;display:grid;grid-template-columns:1.3fr .7fr;align-items:center;text-align:left;padding-top:130px;width:100%}
   .hero .rule{margin:16px 0 26px;width:100px}
   .hero h1{font-size:clamp(60px,5.9vw,86px)}
@@ -250,7 +250,7 @@ footer a.u{color:var(--gold-hi);text-decoration:underline}
         <a class="btn btn-line mob" href="#club"><svg><use href="#i-mail"/></svg>Join Our Tea Club</a>
       </div>
     </div>
-    <div class="stage"><img class="tin" src="img/tin.png" alt="ZENLEAF Jasmine Blossom green tea tin with gold lid" width="480" height="697"></div>
+    <div class="stage"><img class="tin" src="img/tin.png" alt="ZENLEAF Jasmine Blossom green tea tin with gold lid" width="480" height="678"></div>
   </div>
   <div class="wrap hero-foot">
     <ul class="trust" aria-label="Why ZENLEAF">
@@ -272,7 +272,7 @@ footer a.u{color:var(--gold-hi);text-decoration:underline}
   <div class="wrap">
     <div class="head reveal"><h2>Our Story</h2><div class="rule"></div><div class="eyebrow">A journey of passion, heritage and the finest tea</div></div>
     <div class="grid">
-      <figure class="reveal"><img src="img/story.jpg" alt="Steaming cup of tea beside loose leaves on a dark wooden table" width="1200" height="686" loading="lazy"></figure>
+      <figure class="reveal"><img src="img/story.jpg" alt="Hands picking young tea leaves on a misty hillside at dawn" width="1200" height="686" loading="lazy"></figure>
       <div class="reveal">
         <p class="big">It began with a grandmother’s recipe book and a small hillside garden where the mist lifts slowly every morning.</p>
         <p>Three generations later we still buy only from growers we know by name, pick only the first two leaves and a bud, and blend every batch by hand. Each tin is sealed the same week it is blended, so your cup tastes the way it did on the hill.</p>
@@ -285,16 +285,16 @@ footer a.u{color:var(--gold-hi);text-decoration:underline}
 <section class="teas" id="teas"><div class="wrap">
   <div class="head reveal"><h2>Our Teas</h2><div class="rule"></div><div class="eyebrow">Four blends · ships with Prime from our Amazon store</div></div>
   <div class="cards">
-    <article class="card reveal"><div class="media"><span class="tag">Bestseller</span><img src="img/blend-1.jpg" alt="Tin of twisted black tea leaves" width="480" height="480" loading="lazy"></div>
+    <article class="card reveal"><div class="media"><span class="tag">Bestseller</span><img src="img/blend-1.jpg" alt="Dark ceramic bowl of black tea with cornflower petals and a gold spoon" width="480" height="480" loading="lazy"></div>
       <div class="body"><h3>Morning Ember</h3><div class="notes">Black · malt · honey</div><p>A bold, round breakfast tea that takes milk well and never turns bitter.</p>
       <div class="row"><span class="price">$18</span><a class="btn btn-gold" href="#" data-amz><svg class="amz"><use href="#i-amz"/></svg>Buy on Amazon</a></div></div></article>
-    <article class="card reveal"><div class="media"><img src="img/blend-2.jpg" alt="Tin of rolled jasmine green tea" width="480" height="480" loading="lazy"></div>
+    <article class="card reveal"><div class="media"><img src="img/blend-2.jpg" alt="Dark ceramic bowl of rolled jasmine green tea with fresh jasmine flowers" width="480" height="480" loading="lazy"></div>
       <div class="body"><h3>Jasmine Blossom</h3><div class="notes">Green · jasmine · spring</div><p>Spring green tea scented with fresh jasmine flowers. Best at 75 °C.</p>
       <div class="row"><span class="price">$20</span><a class="btn btn-gold" href="#" data-amz><svg class="amz"><use href="#i-amz"/></svg>Buy on Amazon</a></div></div></article>
-    <article class="card reveal"><div class="media"><span class="tag">Caffeine-free</span><img src="img/blend-3.jpg" alt="Tin of chamomile and lavender herbal blend" width="480" height="480" loading="lazy"></div>
+    <article class="card reveal"><div class="media"><span class="tag">Caffeine-free</span><img src="img/blend-3.jpg" alt="Dark ceramic bowl of dried chamomile and lavender with a gold spoon" width="480" height="480" loading="lazy"></div>
       <div class="body"><h3>Evening Hush</h3><div class="notes">Herbal · chamomile · lavender</div><p>Whole chamomile flowers and a little lavender for slow evenings.</p>
       <div class="row"><span class="price">$16</span><a class="btn btn-gold" href="#" data-amz><svg class="amz"><use href="#i-amz"/></svg>Buy on Amazon</a></div></div></article>
-    <article class="card reveal"><div class="media"><span class="tag">Gift set</span><img src="img/blend-4.jpg" alt="Three open tea tins with a brass scoop" width="480" height="480" loading="lazy"></div>
+    <article class="card reveal"><div class="media"><span class="tag">Gift set</span><img src="img/blend-4.jpg" alt="Three small gold-rimmed bowls of black, jasmine and chamomile tea" width="480" height="480" loading="lazy"></div>
       <div class="body"><h3>Discovery Trio</h3><div class="notes">All three · gift box</div><p>The full ritual in one box — a favourite first order and an easy gift.</p>
       <div class="row"><span class="price">$48</span><a class="btn btn-gold" href="#" data-amz><svg class="amz"><use href="#i-amz"/></svg>Buy on Amazon</a></div></div></article>
   </div>
