@@ -1,9 +1,9 @@
-# Kinmoor Tea — landing page concept
+# ZENLEAF Tea Co. — landing page concept
 
 A single-page landing concept for a **fictional** craft direct-to-consumer tea brand.
 Live: https://vladosskins178.github.io/tea-landing-demo/
 
-Sections: hero with Amazon CTA, trust badges, heritage story, three-blend product grid,
+Sections: hero with Amazon CTA and tea-club signup, trust badges, heritage story, four-blend product grid,
 benefits, review placeholders, email capture (styled to drop in a MailerLite embed),
 final CTA, sticky mobile CTA bar.
 
@@ -17,15 +17,16 @@ All images live in `img/` and can be replaced with files of the same name:
 
 | File | Used for | Size |
 |---|---|---|
-| `hero-1600.webp`, `hero-800.webp` | desktop hero (subject on the left) | 1600 / 800 px wide |
-| `hero-m.webp` | mobile hero crop | ~800 px |
-| `garden-1600.webp`, `garden-800.webp` | heritage story | 1600 / 800 px |
-| `blend-black.webp`, `blend-green.webp`, `blend-calm.webp` | product cards | 480–800 px square |
-| `blends-1200.webp`, `blends-700.webp` | full-width band | 1200 / 700 px |
-| `og.jpg` | social preview | 1200×630 |
+| `hero-desktop.jpg` | desktop hero background (keep the left side calm for text) | 1600×900 (16:9) |
+| `hero-mobile.jpg` | mobile hero background | 720×1280 (9:16) |
+| `tin.png` | product tin over the hero (transparent PNG) | ~480 px wide |
+| `story.jpg` | Our Story photo | 1200 px wide |
+| `blend-1.jpg` … `blend-4.jpg` | Our Teas cards | 480–800 px square |
+| `logo.svg` | logo mark in nav, footer, favicon | vector |
+| `../og.jpg` | social preview | 1200×630 |
 
 ## Note
 
-Kinmoor Tea is not a real brand. Products, prices, badges and copy are illustrative,
+ZENLEAF Tea Co. is not a real brand. Products, prices, badges and copy are illustrative,
 reviews are placeholders, and the buttons and form are not connected.
-Photography is AI-generated for this concept.
+Photography is AI-generated and the tin is a 3D render made for this concept.
